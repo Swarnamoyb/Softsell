@@ -1,0 +1,33 @@
+.testimonial-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-content {
+  font-style: italic;
+  color: #2d3436;
+  font-size: 1.1rem;
+}
+
+.testimonial-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.testimonial-author img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+}
+
+.testimonial-author h5 {
+  margin: 0;
+  color: #2d3436;
+}
+
+.testimonial-author p {
+  margin: 0;
+  color: #636e72;
+}

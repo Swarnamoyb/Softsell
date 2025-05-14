@@ -1,0 +1,25 @@
+/* Form input styling */
+.form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Input focus effect */
+.form-control:focus {
+  border-color: blue;
+  box-shadow: 0 0 5px rgba(0, 0, 255, 0.2);
+}
+
+/* Button styling */
+.btn-primary {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+}
+
+/* Button hover effect */
+.btn-primary:hover {
+  background-color: darkblue;
+}

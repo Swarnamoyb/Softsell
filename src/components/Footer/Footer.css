@@ -1,0 +1,31 @@
+.footer {
+  background-color: #2d3436;
+}
+
+.footer h5 {
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.footer p {
+  color: #b2bec3;
+}
+
+.footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footer ul li a {
+  color: #b2bec3;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer ul li a:hover {
+  color: #fff;
+}
+
+.footer .text-center p {
+  margin: 0;
+  font-size: 0.9rem;
+}

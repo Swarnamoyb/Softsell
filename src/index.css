@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-padding-top: 80px; 
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.6;
+  color: #2d3436;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.btn {
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-weight: 500;
+}
+
+[data-aos] {
+  pointer-events: none;
+}
+
+[data-aos].aos-animate {
+  pointer-events: auto;
+}
+
+
+:root {
+  --primary: #2563eb;
+  --background-light: #f0f9ff;
+  --background-dark: #1e293b;
+  --text-light: #1e293b;
+  --text-dark: #f0f9ff;
+}
+
+body {
+  background-color: var(--background);
+}
+
+section {
+  background-color: var(--card-bg);
+  margin: 20px 0;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    padding: 40px 0;
+    margin: 10px 0;
+  }
+
+  .btn {
+    padding: 0.6rem 1rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  section {
+    padding: 20px 0;
+    margin: 5px 0;
+  }
+
+  .btn {
+    padding: 0.4rem 0.8rem;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 80%;
+  }
+}

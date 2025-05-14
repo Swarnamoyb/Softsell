@@ -1,0 +1,24 @@
+.why-choose-us {
+  background-color: #f5f6fa;
+}
+
+.benefit h3 {
+  font-size: 1.3rem;
+  color: #2d3436;
+  margin-bottom: 0.5rem;
+}
+
+.benefit p {
+  color: #636e72;
+}
+
+.benefit {
+  padding: 1rem;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.benefit:hover {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
